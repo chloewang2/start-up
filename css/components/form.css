@@ -1,0 +1,51 @@
+/* for my typeform */
+.typeform-section {
+  padding: 50px 0;
+  background-color: #ffffff; /* white background */
+  text-align: center;
+}
+
+.typeform-section h2 {
+  color: #3d2b1f; /* coffee brown */
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.nespresso-form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.nespresso-form input {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+
+
+.nespresso-form input:focus {
+  outline: none;
+  border-color: #A3895D; /* gold color */
+}
+
+.btn-submit {
+  background-color: #3d2b1f; /* deep coffee brown */
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: rgb(75, 46, 43); /* dark brown color */
+  opacity: 0.8;
+
+}
